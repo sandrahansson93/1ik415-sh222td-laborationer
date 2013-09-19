@@ -16,31 +16,32 @@
 <form id="form" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
 <fieldset>
     <legend>Personuppgifter</legend>
-    <label>Språk</label>
-                    <select>
-                    <option>Svenska</option>
-                    <option>Engelska</option>
-                    <option>Tyska</option>
-                    <option>Franska</option>
-                    <option>Ryska</option>
+    <label for="sprak">Språk</label>
+                    <select id="sprak" name="språk">
+                    <option value="svenska">Svenska</option>
+                    <option value="engelska">Engelska</option>
+                    <option value="tyska">Tyska</option>
+                    <option value="franska">Franska</option>
+                    <option value="ryska">Ryska</option>
                     </select>
                     <br>
 
-    <label>Hemstad</label>
-                    <input><br>
+    <label for="hemstad">Hemstad</label>
+                    <input id="hemstad" name="ort" type="text"><br>
 
     <label>Personlighet</label>
     <textarea rows="5" cols="20"></textarea>
+
 </fieldset>
     
 <fieldset>
     <legend>Övrig information</legend>    
     <label>Allergier</label><br>    
-    <input type="checkbox" name="g1[]" value="gluten" /> Gluten<br>
-    <input type="checkbox" name="g1[]" value="pälsdjur" /> Pälsdjur<br>
-    <input type="checkbox" name="g1[]" value="laktos" /> Laktos<br>
-    <input type="checkbox" name="g1[]" value="meskelin" /> Meskelin<br>
-    <input type="checkbox" name="g1[]" value="inga allergier" /> Inga allergier
+    <input type="checkbox" name="allergier[]" value="gluten" /> Gluten<br>
+    <input type="checkbox" name="allergier[]" value="pälsdjur" /> Pälsdjur<br>
+    <input type="checkbox" name="allergier[]" value="laktos" /> Laktos<br>
+    <input type="checkbox" name="allergier[]" value="meskelin" /> Meskelin<br>
+    <input type="checkbox" name="allergier[]" value="inga allergier" /> Inga allergier
 
 
 </fieldset>    
