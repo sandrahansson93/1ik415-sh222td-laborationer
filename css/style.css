@@ -75,8 +75,9 @@ table {
     height: 330px ;
     margin: 10px ;
     background-color: #FFDE40 ;
-    text-align: center ;
-    text-color:
+    list-style-type: none;
+    
+
 }
 
 #content {
@@ -97,7 +98,23 @@ h3 { color: #0DA64B; }
 p { color: #FFFFFF ; }
 
 
+.navigation {
+display: inline-block; 
+width: 100px;
+margin: 10px;
+border: 1px solid black;
+background: #FF7E40;
+}
 
+.navigation:hover { background-color: #60D5AC; }
+
+.active {
+display: inline-block; 
+width: 100px;
+margin: 10px;
+border: 1px solid black;
+background: #60D5AC;
+}
 
 
 
