@@ -63,6 +63,8 @@ table {
     width: 958px ;
     height: 160px ;
     margin: 10px ;
+    background-color: #FF7E40 ;
+    text-decoration: #FFFFFFF;
 }
 
 #navigation {
@@ -72,6 +74,9 @@ table {
     width: 140px ;
     height: 330px ;
     margin: 10px ;
+    background-color: #FFDE40 ;
+    text-align: center ;
+    text-color:
 }
 
 #content {
@@ -81,7 +86,15 @@ table {
     width: 795px ;
     height: 1000px ;
     margin: 10px ;
+    background-color: #60D5AC ;
+    
+ 
 }
+
+h1 { color: #000000; }
+h2 { color: #2E6646; }
+h3 { color: #0DA64B; }
+p { color: #FFFFFF ; }
 
 
 
