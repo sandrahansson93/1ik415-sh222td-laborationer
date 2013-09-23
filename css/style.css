@@ -63,7 +63,7 @@ table {
     width: 958px ;
     height: 160px ;
     margin: 10px ;
-    background-color: #FF7E40 ;
+    background-color: #5073C3 ;
     text-decoration: #FFFFFFF;
 }
 
@@ -74,7 +74,7 @@ table {
     width: 140px ;
     height: 330px ;
     margin: 10px ;
-    background-color: #FFDE40 ;
+    background-color: #A3EAE5 ;
     list-style-type: none;
     
 
@@ -92,18 +92,42 @@ table {
  
 }
 
-h1 { color: #000000; }
+h1 { color: #212B65; }
 h2 { color: #2E6646; }
-h3 { color: #0DA64B; }
+h3 { color: #1D761D; }
 p { color: #FFFFFF ; }
 
+h1 { font-size: 60px;  
+     font-family: Georgia;
+     text-align: center;
+     text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+h2 { font-size: 40px; 
+     font-family: Georgia;
+     text-decoration: none;
+     text-align: center;
+}
+
+h3 { font-size: 25px; 
+     font-family: Georgia;
+     margin: 20px;
+     text-decoration: none;
+     border-bottom: solid 1px green;
+     border-top: solid 1px green;
+}
+
+p { font-size: 17px; 
+    font-family: Georgia;
+    margin: 10px;
+}
 
 .navigation {
 display: inline-block; 
 width: 100px;
 margin: 10px;
 border: 1px solid black;
-background: #FF7E40;
+background: #5073C3;
 }
 
 .navigation:hover { background-color: #60D5AC; }
@@ -115,6 +139,9 @@ margin: 10px;
 border: 1px solid black;
 background: #60D5AC;
 }
+
+a:link {color:#FFFFFF;}     /* unvisited link */
+a:visited {color:#FFFFFF;}     /* visited link */
 
 
 
