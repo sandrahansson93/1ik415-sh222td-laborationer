@@ -77,17 +77,35 @@ table {
     background-color: #A3EAE5 ;
     list-style-type: none;
     background-image: url(../pics/logga.png);
-
 }
 
 #content {
     
     border: 1px solid black;
     float: left;
-    width: 795px ;
+    width: 775px ;
     height: 1500px ;
     margin: 10px ;
+    padding: 10px;
     background-color: #60D5AC ;
+    color: #FFFFFF ;
+    font-family: Georgia;
+    
+}
+
+#content ul 
+{
+    margin: 10px;
+}
+
+#content ol 
+{
+    margin: 10px;
+}
+
+#content dl 
+{
+    margin: 10px;
 }
 
 .image
@@ -154,8 +172,8 @@ border: 1px solid black;
 background: #60D5AC;
 }
 
-a:link {color:#FFFFFF;}     /* unvisited link */
-a:visited {color:#FFFFFF;}     /* visited link */
+a:link {color:000000;}     /* unvisited link */
+a:visited {color:#000000;}     /* visited link */
 
 
 
