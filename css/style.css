@@ -53,7 +53,7 @@ table {
     
     border: 1px solid black;
     width: 980px ;
-    height: 1220px ;
+    height: 1720px ;
     margin: auto ;
 }
 
@@ -85,10 +85,20 @@ table {
     border: 1px solid black;
     float: left;
     width: 795px ;
-    height: 1000px ;
+    height: 1500px ;
     margin: 10px ;
     background-color: #60D5AC ;
 }
+
+.image
+{
+    float: right;
+    border-color: #FFFFFF;
+    border-width: 3px;
+    border-style: solid;
+    margin: -1px;
+}
+
 .text
 {
     float left 
