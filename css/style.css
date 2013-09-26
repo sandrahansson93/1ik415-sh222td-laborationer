@@ -63,8 +63,8 @@ table {
     width: 958px ;
     height: 160px ;
     margin: 10px ;
-    background-color: #5073C3 ;
     text-decoration: #FFFFFFF;
+    background-image: url(../pics/solnedgang.png);
 }
 
 #navigation {
@@ -76,7 +76,7 @@ table {
     margin: 10px ;
     background-color: #A3EAE5 ;
     list-style-type: none;
-    
+    background-image: url(../pics/logga.png);
 
 }
 
@@ -88,22 +88,25 @@ table {
     height: 1000px ;
     margin: 10px ;
     background-color: #60D5AC ;
-    
- 
+}
+.text
+{
+    float left 
 }
 
-h1 { color: #212B65; }
+h1 { color: #FFFFFF; }
 h2 { color: #2E6646; }
 h3 { color: #1D761D; }
 p { color: #FFFFFF ; }
 
-h1 { font-size: 60px;  
+h1 { font-size: 45px;  
      font-family: Georgia;
-     text-align: center;
-     text-shadow: 1px 1px 1px #FFFFFF;
+     margin-top: 100px;
+     margin-left: 10px;
+     text-shadow: 1px 1px 1px green;
 }
 
-h2 { font-size: 40px; 
+h2 { font-size: 35px; 
      font-family: Georgia;
      text-decoration: none;
      text-align: center;
@@ -123,6 +126,7 @@ p { font-size: 17px;
 }
 
 .navigation {
+
 display: inline-block; 
 width: 100px;
 margin: 10px;
@@ -145,4 +149,4 @@ a:visited {color:#FFFFFF;}     /* visited link */
 
 
 
-
+ 
