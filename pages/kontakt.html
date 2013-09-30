@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <link rel="stylesheet" href="../css/style.css">
         <meta charset="utf-8" /> 
         <title>Kontakt</title>
     </head>
     <body>
 
+<div id="wrapper">
+
+<div id="header">
+        <h1>Kontakt</h1>
+</div>
+
+<div id="navigation">
+        
         <ul>
             <li><a href="../index.html" class="navigation">Startsida</a></li>
             <li><a href="laborationer.html" class="navigation">Laborationer</a></li>
             <li><a href="kontakt.html" class="active" class="navigation">Kontakt</a></li>
             <li><a href="presentation.html" class="navigation">Presentation</a></li>
         </ul>
+</div>
 
+<div id="content">
+
+<h2>Formulär</h2>
+<br>
 <form id="form" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
 <fieldset>
-    <legend>Personuppgifter</legend>
-    <label for="sprak">Språk</label>
+    <h3>Personuppgifter</h3>
+    <label for="sprak"><h4>Språk:</h4></label>
                     <select id="sprak" name="språk">
                     <option value="svenska">Svenska</option>
                     <option value="engelska">Engelska</option>
@@ -25,33 +39,34 @@
                     <option value="ryska">Ryska</option>
                     </select>
                     <br>
-
-    <label for="hemstad">Hemstad</label>
+    <br>
+    <label for="hemstad"><h4>Hemstad:</h4></label>
                     <input id="hemstad" name="ort" type="text"><br>
-
-    <label>Personlighet</label>
+    <br>
+    <label><h4>Personlighet:</h4></label>
     <textarea rows="5" cols="20"></textarea>
 
 </fieldset>
-    
+    <br>
 <fieldset>
-    <legend>Övrig information</legend>    
-    <label>Allergier</label><br>    
+    <h3>Övrig information</h3>
+    <br>
+    <label><h4>Allergier:</h4></label>
+    
     <input type="checkbox" name="allergier[]" value="gluten" /> Gluten<br>
     <input type="checkbox" name="allergier[]" value="pälsdjur" /> Pälsdjur<br>
     <input type="checkbox" name="allergier[]" value="laktos" /> Laktos<br>
     <input type="checkbox" name="allergier[]" value="meskelin" /> Meskelin<br>
     <input type="checkbox" name="allergier[]" value="inga allergier" /> Inga allergier
 
-
 </fieldset>    
-    
+    <br>
 <input type="submit" value="Skicka">   
     
     
 </form>
 
-
+</div>
 
 
  <!--<p>Absoluta/Relativa sökvägar, frågor och svar<p>
@@ -68,5 +83,6 @@
 
         <p>1.4.6. Vilken är den relativa sökvägen från filen index.html till top.html?<br>html/pages/top.html</p>--> 
         
+</div>
     </body>
 </html>
