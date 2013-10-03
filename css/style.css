@@ -79,6 +79,7 @@ table {
     background-image: url(../pics/logga.png);
     background-position: 0 180px;
     background-repeat: no-repeat;
+    
 }
 
 
@@ -139,7 +140,7 @@ table {
 h1 { color: #FFFFFF; }
 h2 { color: #2E6646; }
 h3 { color: #1D761D; }
-p { color: #FFFFFF ; }
+p  { color: #FFFFFF ; }
 
 h1 { font-size: 45px;  
      font-family: Georgia;
@@ -175,7 +176,6 @@ p { font-size: 17px;
 
 /* De klickbara blocken. Färg, storlek osv.*/
 .navigation {
-display: inline-block; 
 width: 100px;
 height: 23px;
 margin: 10px;
@@ -198,6 +198,44 @@ background: #60D5AC;
 /*Anger färgen till länkarna*/
 a:link {color:000000;}     /* unvisited link */
 a:visited {color:#000000;}     /* visited link */
+
+/*meny ikonerna för laborationssidan*/
+#menu-list a
+{
+    width:95px;
+    height: 24px;
+    display:block;
+    background-image: url(../pics/sprite.png);
+    background-repeat: no-repeat;
+    padding-left:25px;
+    color:black;
+}
+#menu-list ul {
+    list-style-type:none;
+}
+#menu-list li 
+{
+    width: 100%;
+    display: block;
+    margin:right;
+}
+
+#house-icon { background-position: 0 -48px }
+#house-icon:hover { background-position: 0 0px }
+
+#tool-icon { background-position: 0 -144px }
+#tool-icon:hover { background-position: 0 -96px }
+
+#person-icon { background-position: 0 -240px }
+#person-icon:hover { background-position: 0 -192px }
+
+#mail-icon { background-position: 0 -336px }
+#mail-icon:hover { background-position: 0 -288px }
+
+
+
+
+
 
 
 
