@@ -51,6 +51,7 @@ table {
 /*Deklarerar kolumnerna*/
 #wrapper {
     
+
     border: 1px solid black;
     width: 980px ;
     height: 1720px ;
@@ -232,7 +233,7 @@ a:visited {color:#000000;}     /* visited link */
 #mail-icon { background-position: 0 -336px }
 #mail-icon:hover { background-position: 0 -288px }
 
-
+img { max-width: 100%; }
 
 
 
