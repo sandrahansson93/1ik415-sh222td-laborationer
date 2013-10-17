@@ -3,43 +3,49 @@
     <head>
     <link rel="stylesheet" href="css/style.css" media="screen">
     <link rel="stylesheet" href="css/print.css" media="print">
-        <meta charset="utf-8" /> 
+    <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width:481px)"/>
+    <link rel="icon" type="image/ico" href="pics/favicon.ico"/>
+    <link rel="apple-touch-icon" href="../pics/shroomtwo.png" sizes="74x74"/>
+        <meta charset="utf-8" name="viewport" content="width:device-width, initial-scale=1.0"/> 
         <title>Sandra Hansson</title>
     </head>
      <body>
         <div id="wrapper">
             
-        <div id="header">
+        <header id="header">
             <h1>Sandras resa genom webbprogrammering!</h1>
-        </div>
+        </header>
         
-        <div id="navigation">
+        <nav id="navigation">
 
            <ul id="menu-list">
             <li><a id="house-icon" href="../index.html" class="active" class="navigation">Startsida</a></li>
-            <li><a id="tool-icon" href="laborationer.html" class="navigation">Laborationer</a></li>
-            <li><a id="mail-icon" href="kontakt.html" class="navigation">Kontakt</a></li>
-            <li><a id="person-icon" href="presentation.html" class="navigation">Presentation</a></li>
+            <li><a id="tool-icon" href="pages/laborationer.html" class="navigation">Laborationer</a></li>
+            <li><a id="mail-icon" href="pages/kontakt.html" class="navigation">Kontakt</a></li>
+            <li><a id="person-icon" href="pages/presentation.html" class="navigation">Presentation</a></li>
         </ul>
-        </div>
+        </nav>
 
-        <div id="content">
+        <main id="content">
     
             <h2>Kursblogg</h2>
     
+            <article>
             <h3>Första inlägget</h3>
             <p>På denna blogg kommer jag presentera laborationer jag genomfört. </p>
             <p>Publicerat, 2013-09-16</p>
+            </article>
     
-    
-            <h3>Andra inlägget</h3>
+            <article><h3>Andra inlägget</h3>
             
             <img id="vektorbild" src="pics/vektorbild.svg" alt="Illustration av en kamera" width="200" height="300"/>
     
             <p>Här är resultatet av min vektorbild där jag använde programmet Adove Illustrator för att skapa den.</p>
     
             <p>Publicerat, 2013-09-17</p>
+            </article>
             
+            <article>
             <h3>Tredje inlägget</h3>
             
             <video id="video" src="videos/trailer.ogg" controls><p>Din webbläsare stödjer inte <code>video</code>-taggen</p></video>
@@ -54,13 +60,13 @@
             <img id="foto" src="pics/windmill.jpg" alt="Foto på två vindkvarnar på ett fält i solskenet" width="300" height="300"/>
             </div>
             
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin metus lacus, lobortis in imperdiet at, hendrerit sit amet est. Suspendisse et ligula quis urna consectetur fermentum. In id magna ac sem consectetur porta vel vitae elit. In congue imperdiet risus non tristique. In pharetra congue sapien, vel ullamcorper metus facilisis vel. In pharetra auctor purus vel cursus. Sed dictum quis massa sit amet auctor.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin metus lacus, lobortis in imperdiet at, hendrerit sit amet est. Suspendisse et ligula quis urna consectetur fermentum.  In id magna ac sem consectetur porta vel vitae elit. In congue imperdiet risus non tristique. In pharetra congue sapien, vel ullamcorper metus facilisis vel. In pharetra auctor purus vel cursus. Sed dictum quis massa sit amet auctor.</p>
             <p>Sed ornare leo sit amet purus malesuada euismod. Phasellus feugiat tortor eu nisl molestie, et congue sapien sollicitudin. Maecenas nec malesuada tortor. Morbi lacinia justo quis leo ornare consequat. Fusce cursus adipiscing orci. Nunc gravida ac purus sodales, ut porta lacus molestie. Sed luctus vulputate odio, nec pretium dui dapibus eu. In varius dignissim nisi, at mattis ligula vulputate sit amet. Duis eget molestie urna, non tempus erat. Ut eu ligula sed orci laoreet varius vel eget odio. Etiam sit amet auctor lacus, vel porta enim. Etiam eu est id nunc laoreet vestibulum. In placerat a risus at interdum. Vivamus pulvinar mollis urna ac elementum. Duis sed leo sem.</p>
             <p>Quisque blandit lorem ante, ut tristique nisi cursus auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum bibendum velit at risus molestie, vitae vehicula nisl porta. Duis ut vulputate leo. Nulla consequat congue ultrices. Integer odio nunc, suscipit sed accumsan iaculis, congue ut lacus. Nulla ac rhoncus turpis.</p>
+            </article>
             
-        </div>
+        </main>
    
-        <div id="footer"></div>
-        </div>
+        </wrapper>
     </body>
 </html>

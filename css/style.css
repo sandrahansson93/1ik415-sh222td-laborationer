@@ -117,19 +117,13 @@ table {
 .image
 {
     float: right;
-    border-color: #FFFFFF;
-    border-width: 3px;
-    border-style: solid;
     margin: -1px;
 }
 
 .portrattfoto
 {
     float: left;
-    border-color: #FFFFFF;
-    border-width: 3px;
-    border-style: solid;
-    margin: -1px;
+    margin: 10px;
 }
 
 .text
@@ -172,7 +166,7 @@ h4 { font-size: 20px;
 
 p { font-size: 17px; 
     font-family: Georgia;
-    margin: 10px;
+    margin:10px;
 }
 
 /* De klickbara blocken. Färg, storlek osv.*/
@@ -234,6 +228,14 @@ a:visited {color:#000000;}     /* visited link */
 #mail-icon:hover { background-position: 0 -288px }
 
 img { max-width: 100%; }
+
+#hcard-Sandra-Eva-Marika-Hansson
+{
+    padding:10px;
+    border:1px;
+    border-color:green;
+    border-style:solid;
+}
 
 
 

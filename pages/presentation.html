@@ -3,28 +3,31 @@
     <head> 
     <link rel="stylesheet" href="../css/style.css" media="screen">
     <link rel="stylesheet" href="../css/print.css" media="print">
-        <meta charset="utf-8" /> 
+    <link rel="stylesheet" href="../css/mobile.css" media="only screen and (max-width:481px)"/>
+    <link rel="icon" type="image/ico" href="../pics/favicon.ico"/>
+    <link rel="apple-touch-icon" href="../pics/shroomtwo.png" sizes="74*74"/>
+        <meta charset="utf-8" name="viewport" content="width:device-width, initial-scale=1.0"/> 
         <title>Ett första dokument</title> 
     </head> 
 
     <body> 
 
-    <div id="wrapper">
+    <wrapper id="wrapper">
         
-    <div id="header">
+    <header id="header">
         <h1>Historien om Sandra Hansson</h1>
-    </div>
+    </header>
         
-        <div id="navigation">
+        <nav id="navigation">
          <ul id="menu-list">
             <li><a id="house-icon" href="../index.html" class="navigation">Startsida</a></li>
-            <li><a id="tool-icon" href="laborationer.html" class="navigation">Laborationer</a></li>
-            <li><a id="mail-icon" href="kontakt.html" class="navigation">Kontakt</a></li>
-            <li><a id="person-icon" href="presentation.html" class="active" class="navigation">Presentation</a></li>
+            <li><a id="tool-icon" href="../pages/laborationer.html" class="navigation">Laborationer</a></li>
+            <li><a id="mail-icon" href="../pages/kontakt.html" class="navigation">Kontakt</a></li>
+            <li><a id="person-icon" href="../pages/presentation.html" class="active" class="navigation">Presentation</a></li>
         </ul>
-    </div>
+        </nav>
         
-        <div id="content">
+        <main id="content">
         <h2>Presentation</h2>
         
     <div class=portrattfoto>
@@ -71,8 +74,8 @@
             <li>Villa</li>
         </ol>
 
-    </div>
-    </div>
+        </main>
+    </wrapper>
 
     </body> 
 </html>
